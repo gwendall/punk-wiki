@@ -1,0 +1,1 @@
+export const punks = '#FF04B4';
