@@ -1,5 +1,3 @@
-"use client";
-
 import StyledComponentsRegistry from '~/lib/registry'
 import { Montserrat } from 'next/font/google'
 import Header from '~/components/Header';

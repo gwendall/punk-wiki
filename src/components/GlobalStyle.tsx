@@ -12,6 +12,10 @@ const GlobalStyle = createGlobalStyle`
     line-height: 1.8em;
     color: #272727;
   }
+  body {
+    overflow-x: hidden;
+    overflow-y: scroll;
+  }
   * {
     box-sizing: border-box;
   }
