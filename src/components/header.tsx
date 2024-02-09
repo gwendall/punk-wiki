@@ -27,12 +27,9 @@ const HeaderContainer = styled.header`
 
 export default function Header() {
     return (
-        <HeaderContainer>
-            <div>
-                <Title as={Link} href="/">punk.wiki</Title>
-                <div>A wiki of all CryptoPunks-related resources</div>
-            </div>
-            <PunkButton as={Link} href="/add">Add something</PunkButton>
-        </HeaderContainer>
+      <HeaderContainer>
+        <Title as={Link} href="/">Punk.wiki</Title>
+        <PunkButton as={Link} href="/add">Add something</PunkButton>
+      </HeaderContainer>
     )
 }

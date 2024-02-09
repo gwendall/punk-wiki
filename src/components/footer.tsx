@@ -6,6 +6,7 @@ const FooterContainer = styled.footer`
     text-align: center;
     font-weight: bold;
     font-size: 16px;
+    margin-top: 15px;
 `;
 
 export default function Footer() { 

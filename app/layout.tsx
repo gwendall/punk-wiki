@@ -45,7 +45,6 @@ const PageContainer = styled.main`
 
 const PageBody = styled.div`
   flex: 1;
-  padding: 15px 0;
 `;
 
 export default function RootLayout({
