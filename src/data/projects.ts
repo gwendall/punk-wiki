@@ -27,7 +27,7 @@ const PROJECTS: Project[] = [
         name: 'CryptoPunks Brand Hub',
         url: 'https://hub.cryptopunks.app/',
         logo: 'https://cryptopunks.app/logo.png',
-        description: 'The official brand hub for CryptoPunks.',
+        description: 'An archive and living source for project info and initiatives.',
         categories: ['Brand', 'Marketplace'],
         builders: [
             {
