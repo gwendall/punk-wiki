@@ -47,29 +47,32 @@ export default function Home() {
     <>
       <div style={{ marginBottom: 10 }}>A community-curated list of resources about CryptoPunks.</div>
       {PROJECTS.map((p, i) => (
-          <ProjectItemContainer key={`p-${i}`} as="a" href={p.url} target="_blank" rel="noreferrer">
+        <ProjectItemContainer key={`p-${i}`} as="a" href={p.url} target="_blank" rel="noreferrer">
+                    <div style={{
+            width: 45,
+            height: 45,
+            marginRight: 10,
+            // borderRadius: '100%',
+            backgroundColor: 'rgba(0, 0, 0, 0.1)',
+            border: '1px solid rgba(0, 0, 0, 0.05)',
+            display: 'flex',
+            justifyContent: 'center',
+            alignItems: 'center',
+            borderRadius: '100%',
+          }}>
               {p.logo ? (
           <Image
             src={p.logo || `https://logo.clearbit.com/${getDomain(p.url)}`}
             alt={p.url}
-            width={45}
-            height={45}
+            width={43}
+            height={43}
             style={{
               objectFit: 'cover',
-              marginRight: 10,
               borderRadius: '100%',
-              backgroundColor: 'rgba(0, 0, 0, 0.1)',
             }}
           />                  
-        ) : (
-          <div style={{
-            width: 45,
-            height: 45,
-            marginRight: 10,
-            borderRadius: '100%',
-            backgroundColor: 'rgba(0, 0, 0, 0.1)',
-          }} />
-        )}
+        ) : null}
+          </div>
           <div style={{ flex: 1 }}>
             <div>
             <span className="project-title" style={{
