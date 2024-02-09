@@ -65,7 +65,8 @@ const PROJECTS: Project[] = [
     {
         name: "Punks Wrapper",
         url: "https://punks.swap.kiwi",
-        description: "We created a simpler interface for the WrappedPunks smart contract.",
+        logo: 'https://app.swap.kiwi/SwapKiwiCover.png',
+        description: "A simple interface for the WrappedPunks smart contract by swap.kiwi.",
         categories: ["Blockchain", "Cryptopunk", "Smart Contract"],
         builders: []
     },
