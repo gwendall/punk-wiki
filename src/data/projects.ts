@@ -12,9 +12,9 @@ type Project = {
 
 const PROJECTS: Project[] = [
     {
-        "name": "CryptoPunks app",
+        "name": "CryptoPunks",
         "url": "https://cryptopunks.app/",
-        "description": "The original CryptoPunks marketplace and explorer",
+        "description": "The original CryptoPunks marketplace and explorer.",
         "categories": ["marketplace"],
         "builders": [
             {
