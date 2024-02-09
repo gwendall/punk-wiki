@@ -11,6 +11,8 @@ export const defaultMetadata: Metadata = {
         images: 'https://punkmaker.xyz/api/og?p=009&background=FF04B4&size=100',
     },
     twitter: {
+        title: 'punk.wiki',
+        description: 'A community list of all CryptoPunk-related resources.',
         images: ['https://punkmaker.xyz/api/og?p=009&background=FF04B4&size=100']
     }
 }
