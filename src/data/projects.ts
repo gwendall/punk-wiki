@@ -35,7 +35,7 @@ const PROJECTS: Project[] = [
                 description: 'Owners of CryptoPunks'
             }
         ]
-    }
+    },
     {
         name: 'PunkCam',
         url: 'https://punk.cam',
