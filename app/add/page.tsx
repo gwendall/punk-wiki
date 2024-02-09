@@ -1,5 +1,5 @@
 export default function AddPage() {
     return (
-        <div>Coming soon...</div>
+        <div>DM <a href="https://twitter.com/gwendall" target="_blank" rel="noreferrer">@gwendall</a></div>
     )
 }
