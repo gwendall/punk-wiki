@@ -63,17 +63,12 @@ const PROJECTS: Project[] = [
         ]
     },
     {
-        name: "Niftyhorde",
-        url: "https://niftyhorde.com",
-        logo: 'https://avatars.githubusercontent.com/u/84375892?s=280&v=4',
-        description: "We are a blockchain-based software company and creative think tank. Here you can find some of the resources we have developed for the Cryptopunks community.",
-        categories: ["Blockchain", "Software", "Creative", "Cryptopunk"],
-        builders: [
-            {
-                name: "Niftyhorde",
-                description: "Blockchain-based software company and creative think tank."
-            }
-        ]
+        name: 'Wrapped Punks',
+        url: 'https://www.wrappedpunks.com/',
+        logo: 'https://assets.bitdegree.org/crypto-tracker/dapp-logos/ethereum/wrapped-cryptopunks-logo.png',
+        description: 'Turn your CryptoPunks into ERC721',
+        categories: [],
+        builders: []
     },
     {
         name: "Punks Wrapper",
@@ -88,69 +83,30 @@ const PROJECTS: Project[] = [
         ]
     },
     {
-        name: "Swap your Punk",
-        url: "https://swap.kiwi",
-        description: "Swap your NFTs in a safe and secure way, your way!",
-        logo: 'https://app.swap.kiwi/SwapKiwiCover.png',
-        categories: ["NFT", "Trading", "Cryptopunk"],
-        builders: [
-            {
-                name: "Swap Kiwi",
-                description: "NFT trading platform."
-            }
-        ]
+        name: "Punks.wtf",
+        url: "https://punks.wtf",
+        description: "Explore punks pixel data & animate your punk.",
+        categories: [],
+        builders: []
     },
     {
-        name: "Bag",
-        url: "https://bag.swap.kiwi",
-        description: "Showcase your NFTs and discover new swaps",
-        categories: ["NFT", "Showcase", "Trading", "Cryptopunk"],
-        builders: [
-            {
-                name: "Swap Kiwi",
-                description: "NFT showcase and trading platform."
-            }
-        ]
+        name: "The Punk Animator",
+        url: "https://thepunkanimator.xyz/",
+        description: "Animate your punk.",
+        categories: [],
+        builders: []
     },
     {
-        name: "Ultimate Crypto Punks Toolbox",
-        url: "https://github.com/niftyhorde",
-        description: "A set of tools and utilities designed to empower and enhance your experience with Crypto Punks.",
-        categories: ["Tools", "Utilities", "Cryptopunk"],
-        builders: [
-            {
-                name: "Niftyhorde",
-                description: "Developers of tools and utilities for Cryptopunks."
-            }
-        ]
-    },
-    {
-        name: "Animate your Punk",
-        url: "https://punks.wtf/studio",
-        description: "Bring Cryptopunks pixels to life and export a GIF for sharing.",
-        categories: ["Animation", "Cryptopunk", "GIF"],
-        builders: [
-            {
-                name: "Punks WTF",
-                description: "Cryptopunk animation studio."
-            }
-        ]
-    },
-    {
-        name: "Revoke Cash",
-        url: "https://revoke.cash",
-        description: "Allows you to inspect all the contracts you've approved, and revoke their access for the ones you no longer need.",
-        categories: ["Security", "Blockchain", "Smart Contract"],
-        builders: [
-            {
-                name: "Revoke Cash",
-                description: "Smart contract access management tool."
-            }
-        ]
+        name: 'IttyBits',
+        url: 'https://ittybits.xyz/',
+        logo: 'https://ittybits.xyz/ittybits.png',
+        description: 'Each Cryptopunk, constrained to 12x12 pixels, while retaining their original ID #s and traits.',
+        categories: [],
+        builders: []
     },
     {
         name: "Punks As Told By CryptoPunks",
-        url: "https://nft.now",
+        url: "https://nftnow.com/punks-as-told-by-cryptopunks/",
         logo: 'https://nftnow.com/wp-content/uploads/2023/09/cryptopunks-thumbnail.jpg',
         description: "Dive deep into the heart of the CryptoPunks revolution with exclusive interviews of the pioneers and influencers who shaped its history.",
         categories: ["Entertainment", "Documentary", "Cryptopunk"],
@@ -162,8 +118,16 @@ const PROJECTS: Project[] = [
         ]
     },
     {
+        name: 'Cryptopunks.eth.limo',
+        url: 'https://cryptopunks.eth.limo/',
+        logo: 'https://cryptopunks.eth.limo/favicon.ico',
+        description: 'A new and innovative NFT marketplace dedicated exclusively to the iconic 10,000 CryptoPunks collection.',
+        categories: [],
+        builders: []
+    },
+    {
         name: "Understanding CryptoPunks",
-        url: "https://jaillet.eth",
+        url: "https://understanding-cryptopunks.vv.xyz/",
         description: "A little guide than explore the wild phenomenon of CryptoPunks. By jaillet.eth.",
         categories: ["Guide", "Education", "Cryptopunk"],
         builders: [
@@ -191,14 +155,6 @@ const PROJECTS: Project[] = [
         logo: 'https://pbs.twimg.com/profile_images/1728116867191934976/OKnCNSFT_400x400.jpg',
         description: 'Indepedent documentary on the amazing destiny of the Cryptopunks collection and the vivid Cryptoart scene Coproduced with ARTE & TokenAngels. Coming S1 24.',
         categories: ['Cryptopunk', 'Creation'],
-        builders: []
-    },
-    {
-        name: 'Wrapped Punks',
-        url: 'https://www.wrappedpunks.com/',
-        logo: 'https://assets.bitdegree.org/crypto-tracker/dapp-logos/ethereum/wrapped-cryptopunks-logo.png',
-        description: 'Turn your CryptoPunks into ERC721',
-        categories: [],
         builders: []
     },
 ];

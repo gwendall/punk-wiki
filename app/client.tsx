@@ -58,17 +58,18 @@ export default function Home() {
               objectFit: 'cover',
               marginRight: 10,
               borderRadius: '100%',
+              backgroundColor: 'rgba(0, 0, 0, 0.1)',
             }}
           />                  
-              ) : (
-                      <div style={{
-                          width: 45,
-                height: 45,
-              marginRight: 10,
-                          borderRadius: '100%',
-              backgroundColor: 'rgba(0, 0, 0, 0.1)',
-                      }} />
-              )}
+        ) : (
+          <div style={{
+            width: 45,
+            height: 45,
+            marginRight: 10,
+            borderRadius: '100%',
+            backgroundColor: 'rgba(0, 0, 0, 0.1)',
+          }} />
+        )}
           <div style={{ flex: 1 }}>
             <div>
             <span className="project-title" style={{
