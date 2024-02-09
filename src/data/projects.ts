@@ -24,15 +24,41 @@ const PROJECTS: Project[] = [
         ]
     },
     {
-        "name": "PunkMaker",
-        "url": "https://punkmaker.xyz/",
-        "logo": "https://punkmaker.xyz/logo.png",
-        "description": "Make your own punk",
-        "categories": ["creation"],
-        "builders": [
+        name: 'CryptoPunks Brand Hub',
+        url: 'https://hub.cryptopunks.app/',
+        logo: 'https://cryptopunks.app/logo.png',
+        description: 'The official brand hub for CryptoPunks.',
+        categories: ['Brand', 'Marketplace'],
+        builders: [
             {
-                "name": "Larva Labs",
-                "description": "Creators of CryptoPunks"
+                name: 'Yuga Labs',
+                description: 'Owners of CryptoPunks'
+            }
+        ]
+    }
+    {
+        name: 'PunkCam',
+        url: 'https://punk.cam',
+        logo: 'https://punk.cam/logo.png',
+        description: 'PunkCam is a fun way to take a selfie with your favorite Cryptopunk.',
+        categories: ['Cryptopunk', 'Selfie', 'Fun'],
+        builders: [
+            {
+                name: 'PunkCam',
+                description: 'Creators of the PunkCam selfie app.'
+            }
+        ]
+    },
+    {
+        name: 'PunkMaker',
+        url: 'https://punkmaker.xyz',
+        logo: 'https://punkmaker.xyz/logo.png',
+        description: 'Make your own punk',
+        categories: ['Cryptopunk', 'Creation'],
+        builders: [
+            {
+                name: 'Larva Labs',
+                description: 'Creators of CryptoPunks'
             }
         ]
     },
@@ -156,32 +182,6 @@ const PROJECTS: Project[] = [
             {
                 name: "Burned Punks",
                 description: "Community for tracking the rarity of Cryptopunks."
-            }
-        ]
-    },
-    {
-        name: 'PunkCam',
-        url: 'https://punk.cam',
-        logo: 'https://punk.cam/logo.png',
-        description: 'PunkCam is a fun way to take a selfie with your favorite Cryptopunk.',
-        categories: ['Cryptopunk', 'Selfie', 'Fun'],
-        builders: [
-            {
-                name: 'PunkCam',
-                description: 'Creators of the PunkCam selfie app.'
-            }
-        ]
-    },
-    {
-        name: 'PunkMaker',
-        url: 'https://punkmaker.xyz',
-        logo: 'https://punkmaker.xyz/logo.png',
-        description: 'Make your own punk',
-        categories: ['Cryptopunk', 'Creation'],
-        builders: [
-            {
-                name: 'Larva Labs',
-                description: 'Creators of CryptoPunks'
             }
         ]
     },
