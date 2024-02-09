@@ -50,7 +50,7 @@ const PROJECTS: Project[] = [
         name: 'PunkMaker',
         url: 'https://punkmaker.xyz',
         logo: 'https://punkmaker.xyz/logo.png',
-        description: 'Make your own punk',
+        description: 'Make your own punk.',
         categories: ['Cryptopunk', 'Creation'],
         builders: []
     },
@@ -58,7 +58,7 @@ const PROJECTS: Project[] = [
         name: 'Wrapped Punks',
         url: 'https://www.wrappedpunks.com/',
         logo: 'https://assets.bitdegree.org/crypto-tracker/dapp-logos/ethereum/wrapped-cryptopunks-logo.png',
-        description: 'Turn your CryptoPunks into ERC721',
+        description: 'Turn your CryptoPunks into ERC721.',
         categories: [],
         builders: []
     },
@@ -72,6 +72,7 @@ const PROJECTS: Project[] = [
     {
         name: "Punks.wtf",
         url: "https://punks.wtf",
+        logo: 'https://pbs.twimg.com/profile_images/1648319453627547648/aKNoQe0Q_400x400.jpg',
         description: "Explore punks pixel data & animate your punk.",
         categories: [],
         builders: []
@@ -79,6 +80,7 @@ const PROJECTS: Project[] = [
     {
         name: "The Punk Animator",
         url: "https://thepunkanimator.xyz/",
+        logo: 'https://pbs.twimg.com/profile_images/1639192482960535558/gsS6wLsG_400x400.jpg',
         description: "Animate your punk.",
         categories: [],
         builders: []
@@ -110,7 +112,8 @@ const PROJECTS: Project[] = [
     {
         name: "Understanding CryptoPunks",
         url: "https://understanding-cryptopunks.vv.xyz/",
-        description: "A little guide than explore the wild phenomenon of CryptoPunks. By jalil.eth.",
+        logo: 'https://pbs.twimg.com/profile_images/1755582763745292288/APKWetyO_400x400.jpg',
+        description: "A little guide than explore the wild phenomenon of CryptoPunks.",
         categories: ["Guide", "Education", "Cryptopunk"],
         builders: [
             {
