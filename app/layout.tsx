@@ -1,3 +1,5 @@
+"use client";
+
 import StyledComponentsRegistry from '~/lib/registry'
 import { Montserrat } from 'next/font/google'
 import Header from '~/components/Header';
@@ -5,6 +7,7 @@ import Footer from '~/components/Footer';
 import GlobalStyle from '~/components/GlobalStyle';
 import PageContainer from '~/components/PageContainer';
 import PageBody from '~/components/PageBody';
+import React from 'react';
 
 const montserrat = Montserrat({ subsets: ['latin'] });
 
@@ -12,12 +15,12 @@ export default function RootLayout({
   children,
 }: {
   children: React.ReactNode
-}) {
+  }) {
   return (
-    <html>
-      <body className={montserrat.className}>
-        <GlobalStyle />
-        <StyledComponentsRegistry>
+    <StyledComponentsRegistry>
+      <html>
+        <body className={montserrat.className}>
+          <GlobalStyle />
           <PageContainer>
             <Header />
             <PageBody>
@@ -25,8 +28,8 @@ export default function RootLayout({
             </PageBody>
             <Footer />
           </PageContainer>
-        </StyledComponentsRegistry>
-      </body>
-    </html>
-  )
+        </body>
+      </html>
+    </StyledComponentsRegistry>
+  );
 }
