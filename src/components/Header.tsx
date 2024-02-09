@@ -8,7 +8,7 @@ import PunkButton from "./PunkButton";
 const Title = styled.h1`
   color: ${COLORS.punks};
   font-weight: bold;
-  font-size: 26px;
+  font-size: 22px;
   text-decoration: none;
   margin: 0;
   @media(hover: hover) {
@@ -28,7 +28,7 @@ const HeaderContainer = styled.header`
 export default function Header() {
     return (
       <HeaderContainer>
-        <Title as={Link} href="/">Punk.wiki</Title>
+        <Title as={Link} href="/">punk.wiki</Title>
         <PunkButton as={Link} href="/add">Add something</PunkButton>
       </HeaderContainer>
     )

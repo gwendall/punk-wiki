@@ -6,9 +6,9 @@ const PunkButton = styled.button`
   box-sizing: border-box;
   background-color: ${COLORS.punks};
   font-weight: bold;
-  font-size: 15px;
+  font-size: 14px;
   line-height: 15px;
-  padding: 12px 15px;
+  padding: 10px 12px;
   color: #fff;
   font-weight: 700;
   letter-spacing: 1px;
@@ -17,6 +17,7 @@ const PunkButton = styled.button`
   @media(hover: hover) {
     &:hover {
       background-color: black;
+      text-decoration: none;
     }
   }
 `;
