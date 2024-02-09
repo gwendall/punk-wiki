@@ -11,15 +11,9 @@ export const metadata: Metadata = {
     icon: 'https://punkmaker.xyz/api/og?p=009&format=svg&background=FF04B4',
   },
   openGraph: {
-    images: [
-      {
-        url: 'https://punkmaker.xyz/api/og?p=009&background=FF04B4',
-        width: 100,
-        height: 100,
-      },
-    ],
+    images: 'https://punkmaker.xyz/api/og?p=009&background=FF04B4&size=100',
   },
   twitter: {
-    images: ["https://punkmaker.xyz/api/og?p=009&background=FF04B4&size=100"]
+    images: 'https://punkmaker.xyz/api/og?p=009&background=FF04B4&size=100'
   }
 }
