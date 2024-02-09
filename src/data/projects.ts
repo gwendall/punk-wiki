@@ -123,6 +123,7 @@ const PROJECTS: Project[] = [
     {
         name: "Burned Punks",
         url: "https://burnedpunks.com",
+        logo: 'https://pbs.twimg.com/profile_images/1719568886130245632/jjwZHHAm_400x400.jpg',
         description: "There were 10,000 Cryptopunks. 9,988 remain.",
         categories: ["Cryptopunk", "Community"],
         builders: []

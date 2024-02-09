@@ -2,7 +2,7 @@ import { Metadata } from "next";
 
 export const defaultMetadata: Metadata = {
     metadataBase: new URL('https://punk.wiki'),
-    title: 'Punk.wiki',
+    title: 'punk.wiki',
     description: 'A community list of all CryptoPunk-related resources.',
     icons: {
         icon: 'https://punkmaker.xyz/api/og?p=009&format=svg&background=FF04B4',
