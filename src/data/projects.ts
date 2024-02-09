@@ -14,6 +14,7 @@ const PROJECTS: Project[] = [
     {
         "name": "CryptoPunks",
         "url": "https://cryptopunks.app/",
+        logo: 'https://pbs.twimg.com/profile_images/1506332416847269890/OJ8gQuG2_400x400.png',
         "description": "The original CryptoPunks marketplace and explorer.",
         "categories": ["marketplace"],
         "builders": [
