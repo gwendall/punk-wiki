@@ -6,7 +6,8 @@ type Project = {
     categories: string[];
     builders: {
         name: string;
-        description: string;
+        url?: string;
+        picture?: string;
     }[];
 };
 
@@ -20,7 +21,8 @@ const PROJECTS: Project[] = [
         "builders": [
             {
                 "name": "Larva Labs",
-                "description": "Creators of CryptoPunks"
+                url: 'https://twitter.com/larvalabs',
+                picture: 'https://pbs.twimg.com/profile_images/1506331796056727561/7R9A2LIR_400x400.png',
             }
         ]
     },
@@ -33,7 +35,6 @@ const PROJECTS: Project[] = [
         builders: [
             {
                 name: 'Yuga Labs',
-                description: 'Owners of CryptoPunks'
             }
         ]
     },
@@ -43,12 +44,7 @@ const PROJECTS: Project[] = [
         logo: 'https://punk.cam/logo.png',
         description: 'PunkCam is a fun way to take a selfie with your favorite Cryptopunk.',
         categories: ['Cryptopunk', 'Selfie', 'Fun'],
-        builders: [
-            {
-                name: 'PunkCam',
-                description: 'Creators of the PunkCam selfie app.'
-            }
-        ]
+        builders: []
     },
     {
         name: 'PunkMaker',
@@ -56,12 +52,7 @@ const PROJECTS: Project[] = [
         logo: 'https://punkmaker.xyz/logo.png',
         description: 'Make your own punk',
         categories: ['Cryptopunk', 'Creation'],
-        builders: [
-            {
-                name: 'Larva Labs',
-                description: 'Creators of CryptoPunks'
-            }
-        ]
+        builders: []
     },
     {
         name: 'Wrapped Punks',
@@ -76,12 +67,7 @@ const PROJECTS: Project[] = [
         url: "https://punks.swap.kiwi",
         description: "We created a simpler interface for the WrappedPunks smart contract.",
         categories: ["Blockchain", "Cryptopunk", "Smart Contract"],
-        builders: [
-            {
-                name: "Swap Kiwi",
-                description: "Blockchain interface developers."
-            }
-        ]
+        builders: []
     },
     {
         name: "Punks.wtf",
@@ -111,12 +97,7 @@ const PROJECTS: Project[] = [
         logo: 'https://nftnow.com/wp-content/uploads/2023/09/cryptopunks-thumbnail.jpg',
         description: "Dive deep into the heart of the CryptoPunks revolution with exclusive interviews of the pioneers and influencers who shaped its history.",
         categories: ["Entertainment", "Documentary", "Cryptopunk"],
-        builders: [
-            {
-                name: "NFT Now",
-                description: "Creators of NFT-related content and documentaries."
-            }
-        ]
+        builders: []
     },
     {
         name: 'Cryptopunks.eth.limo',
@@ -129,12 +110,13 @@ const PROJECTS: Project[] = [
     {
         name: "Understanding CryptoPunks",
         url: "https://understanding-cryptopunks.vv.xyz/",
-        description: "A little guide than explore the wild phenomenon of CryptoPunks. By jaillet.eth.",
+        description: "A little guide than explore the wild phenomenon of CryptoPunks. By jalil.eth.",
         categories: ["Guide", "Education", "Cryptopunk"],
         builders: [
             {
-                name: "Jaillet",
-                description: "Educator and guide writer for Cryptopunks."
+                name: "jalil",
+                url: 'https://twitter.com/jalil_eth',
+                picture: 'https://pbs.twimg.com/profile_images/1755582763745292288/APKWetyO_400x400.jpg',
             }
         ]
     },
@@ -143,12 +125,7 @@ const PROJECTS: Project[] = [
         url: "https://burnedpunks.com",
         description: "There were 10,000 Cryptopunks. 9,988 remain.",
         categories: ["Cryptopunk", "Community"],
-        builders: [
-            {
-                name: "Burned Punks",
-                description: "Community for tracking the rarity of Cryptopunks."
-            }
-        ]
+        builders: []
     },
     {
         name: 'CryptoPunks Origins',
