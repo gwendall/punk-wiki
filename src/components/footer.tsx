@@ -3,10 +3,11 @@
 import styled from "styled-components"
 
 const FooterContainer = styled.footer`
-    text-align: center;
+    text-align: right;
     font-weight: bold;
-    font-size: 16px;
+    font-size: 14px;
     margin-top: 15px;
+    color: rgba(0, 0, 0, 0.5);
 `;
 
 export default function Footer() { 
