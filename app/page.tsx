@@ -14,6 +14,6 @@ export const metadata: Metadata = {
     images: 'https://punkmaker.xyz/api/og?p=009&background=FF04B4&size=100',
   },
   twitter: {
-    images: 'https://punkmaker.xyz/api/og?p=009&background=FF04B4&size=100'
+    images: ['https://punkmaker.xyz/api/og?p=009&background=FF04B4&size=100']
   }
 }
