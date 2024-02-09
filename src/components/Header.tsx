@@ -3,7 +3,7 @@
 import Link from "next/link";
 import styled from "styled-components";
 import * as COLORS from '~/lib/colors';
-import PunkButton from "./punkbutton";
+import PunkButton from "./PunkButton";
 
 const Title = styled.h1`
   color: ${COLORS.punks};
