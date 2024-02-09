@@ -45,7 +45,7 @@ const CategoryItem = styled.div`
 export default function Home() {
   return (
     <>
-      <div style={{ marginBottom: 10 }}>A community list of all CryptoPunk-related resources.</div>
+      <div style={{ marginBottom: 10 }}>A community-curated list of resources about CryptoPunks.</div>
       {PROJECTS.map((p, i) => (
           <ProjectItemContainer key={`p-${i}`} as="a" href={p.url} target="_blank" rel="noreferrer">
               {p.logo ? (

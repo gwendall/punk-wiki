@@ -150,11 +150,19 @@ const PROJECTS: Project[] = [
         ]
     },
     {
+        name: 'CryptoPunks Origins',
+        url: 'https://cryptopunksorigins.com/',
+        logo: 'https://pbs.twimg.com/profile_images/1661814409537224713/T1Rl7eyd_400x400.jpg',
+        description: '"CryptoPunks Origins" chronicles the life and evolution of the CryptoPunks project.',
+        categories: ['movie'],
+        builders: []
+    },
+    {
         name: 'What The Punk',
         url: 'https://twitter.com/WTP_Movie',
         logo: 'https://pbs.twimg.com/profile_images/1728116867191934976/OKnCNSFT_400x400.jpg',
         description: 'Indepedent documentary on the amazing destiny of the Cryptopunks collection and the vivid Cryptoart scene Coproduced with ARTE & TokenAngels. Coming S1 24.',
-        categories: ['Cryptopunk', 'Creation'],
+        categories: ['movie'],
         builders: []
     },
 ];
