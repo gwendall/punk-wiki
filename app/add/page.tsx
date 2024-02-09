@@ -1,5 +1,5 @@
 export default function AddPage() {
     return (
-        <div>ADD</div>
+        <div>Coming soon...</div>
     )
 }
