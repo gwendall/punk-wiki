@@ -4,6 +4,7 @@ import ClientPage from './client';
 export default ClientPage;
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://punk.wiki'),
   title: 'Punk.wiki',
   description: 'A community list of all CryptoPunk-related resources.',
   icons: {
