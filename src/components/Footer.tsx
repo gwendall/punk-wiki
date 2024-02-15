@@ -1,6 +1,7 @@
 'use client';
 
 import styled from "styled-components"
+import StyledLink from "./StyledLink";
 
 const FooterContainer = styled.footer`
     text-align: right;
@@ -10,7 +11,10 @@ const FooterContainer = styled.footer`
 export default function Footer() { 
     return (
         <FooterContainer>
-            For Punks, by Punks.
+            <StyledLink href="https://github.com/gwendall/punk-wiki" target="_blank" style={{ fontWeight: 'normal', color: 'inherit' }}>
+                Open Source Code
+            </StyledLink>
+            {' - For Punks, by Punks.'}
         </FooterContainer>
     )
 }
