@@ -130,6 +130,19 @@ const PROJECTS: Project[] = [
         ]
     },
     {
+        name: 'NFT Meme Generator',
+        url: 'https://www.nftmeme.pics/punks',
+        logo: 'https://pbs.twimg.com/profile_images/1697283234822758400/rX-XdbHc_400x400.jpg',
+        description: 'Create memes with your punks.',
+        categories: [],
+        builders: [
+            {
+                name: 'Arkaydeus',
+                url: 'https://twitter.com/arkaydeus'
+            }
+        ]
+    },
+    {
         name: 'IttyBits',
         url: 'https://ittybits.xyz/',
         logo: 'https://ittybits.xyz/ittybits.png',
