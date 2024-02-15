@@ -48,7 +48,7 @@ const PROJECTS: Project[] = [
         builders: [
             {
                 name: 'PunkCam',
-                url: 'https://twitter.com/punk_cam'
+                url: 'https://twitter.com/PUNK_CAM'
             },
             {
                 name: 'Gwendall',
