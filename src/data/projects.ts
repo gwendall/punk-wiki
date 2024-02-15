@@ -130,6 +130,19 @@ const PROJECTS: Project[] = [
         ]
     },
     {
+        name: 'PunkList',
+        url: 'https://www.punklist.xyz/',
+        logo: 'https://pbs.twimg.com/profile_images/1697283234822758400/rX-XdbHc_400x400.jpg',
+        description: 'The home of drops and whitelists for Punks',
+        categories: [],
+        builders: [
+            {
+                name: 'Arkaydeus',
+                url: 'https://twitter.com/arkaydeus'
+            }
+        ]
+    },
+    {
         name: 'NFT Meme Generator',
         url: 'https://www.nftmeme.pics/punks',
         logo: 'https://pbs.twimg.com/profile_images/1697283234822758400/rX-XdbHc_400x400.jpg',
