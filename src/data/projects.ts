@@ -20,7 +20,7 @@ const PROJECTS: Project[] = [
         "categories": ["marketplace"],
         "builders": [
             {
-                "name": "Larva Labs",
+                name: "Larva Labs",
                 url: 'https://twitter.com/larvalabs',
                 picture: 'https://pbs.twimg.com/profile_images/1506331796056727561/7R9A2LIR_400x400.png',
             }
@@ -35,6 +35,7 @@ const PROJECTS: Project[] = [
         builders: [
             {
                 name: 'Yuga Labs',
+                url: 'https://twitter.com/yugalabs'
             }
         ]
     },
@@ -44,7 +45,16 @@ const PROJECTS: Project[] = [
         logo: 'https://punk.cam/logo.png',
         description: 'PunkCam is a fun way to take a selfie with your favorite Cryptopunk.',
         categories: ['Cryptopunk', 'Selfie', 'Fun'],
-        builders: []
+        builders: [
+            {
+                name: 'PunkCam',
+                url: 'https://twitter.com/punk_cam'
+            },
+            {
+                name: 'Gwendall',
+                url: 'https://twitter.com/gwendall'
+            }
+        ]
     },
     {
         name: 'PunkMaker',
@@ -52,7 +62,12 @@ const PROJECTS: Project[] = [
         logo: 'https://punkmaker.xyz/logo.png',
         description: 'Make your own punk.',
         categories: ['Cryptopunk', 'Creation'],
-        builders: []
+        builders: [
+            {
+                name: 'Gwendall',
+                url: 'https://twitter.com/gwendall'
+            }
+        ]
     },
     {
         name: 'Wrapped Punks',
@@ -76,7 +91,12 @@ const PROJECTS: Project[] = [
         logo: 'https://pbs.twimg.com/profile_images/1648319453627547648/aKNoQe0Q_400x400.jpg',
         description: "Explore punks pixel data & animate your punk.",
         categories: [],
-        builders: []
+        builders: [
+            {
+                name: 'NiftyNaut',
+                url: 'https://twitter.com/niftynaut'
+            }
+        ]
     },
     {
         name: "The Punk Animator",
@@ -84,7 +104,12 @@ const PROJECTS: Project[] = [
         logo: 'https://pbs.twimg.com/profile_images/1639192482960535558/gsS6wLsG_400x400.jpg',
         description: "Build a punk.",
         categories: [],
-        builders: []
+        builders: [
+            {
+                name: 'The Punk Animator',
+                url: 'https://twitter.com/ThePunkAnimator',
+            }
+        ]
     },
     {
         name: 'IttyBits',
@@ -92,7 +117,12 @@ const PROJECTS: Project[] = [
         logo: 'https://ittybits.xyz/ittybits.png',
         description: 'Each Cryptopunk, constrained to 12x12 pixels, while retaining their original ID #s and traits.',
         categories: [],
-        builders: []
+        builders: [
+            {
+                name: 'Jeremy.eth',
+                url: 'https://twitter.com/posvar'
+            }
+        ]
     },
     {
         name: 'CryptoPunks V1',
@@ -100,7 +130,12 @@ const PROJECTS: Project[] = [
         logo: 'https://i.seadn.io/s/raw/files/1984fbf016de75b723672c077ed3276c.png?auto=format&dpr=1&w=3840',
         description: 'The CryptoPunks from the initial buggy contract, wrapped in ERC721 tokens.',
         categories: [],
-        builders: []
+        builders: [
+            {
+                name: 'FrankNFT',
+                url: 'https://twitter.com/frankNFT_eth'
+            }
+        ]
     },
     {
         name: "Punks As Told By CryptoPunks",
@@ -108,7 +143,16 @@ const PROJECTS: Project[] = [
         logo: 'https://nftnow.com/wp-content/uploads/2023/09/cryptopunks-thumbnail.jpg',
         description: "Dive deep into the heart of the CryptoPunks revolution with exclusive interviews of the pioneers and influencers who shaped its history.",
         categories: ["Entertainment", "Documentary", "Cryptopunk"],
-        builders: []
+        builders: [
+            {
+                name: 'NFT Now',
+                url: 'https://twitter.com/nftnow'
+            },
+            {
+                name: 'Yuga Labs',
+                url: 'https://twitter.com/yugalabs'
+            }
+        ]
     },
     {
         name: 'Cryptopunks.eth.limo',
@@ -126,7 +170,7 @@ const PROJECTS: Project[] = [
         categories: ["Guide", "Education", "Cryptopunk"],
         builders: [
             {
-                name: "jalil",
+                name: "Jalil",
                 url: 'https://twitter.com/jalil_eth',
                 picture: 'https://pbs.twimg.com/profile_images/1755582763745292288/APKWetyO_400x400.jpg',
             }
@@ -138,7 +182,12 @@ const PROJECTS: Project[] = [
         logo: 'https://pbs.twimg.com/profile_images/1719568886130245632/jjwZHHAm_400x400.jpg',
         description: "There were 10,000 Cryptopunks. 9,988 remain.",
         categories: ["Cryptopunk", "Community"],
-        builders: []
+        builders: [
+            {
+                name: 'Sean Bonner',
+                url: 'https://twitter.com/seanbonner'
+            }
+        ]
     },
     {
         name: 'CryptoPunks Origins',
@@ -146,7 +195,12 @@ const PROJECTS: Project[] = [
         logo: 'https://pbs.twimg.com/profile_images/1661814409537224713/T1Rl7eyd_400x400.jpg',
         description: '"CryptoPunks Origins" chronicles the life and evolution of the CryptoPunks project.',
         categories: ['movie'],
-        builders: []
+        builders: [
+            {
+                name: 'Sherone.eth',
+                url: 'https://twitter.com/Sherone33'
+            },
+        ]
     },
     {
         name: 'What The Punk',
@@ -154,7 +208,16 @@ const PROJECTS: Project[] = [
         logo: 'https://pbs.twimg.com/profile_images/1728116867191934976/OKnCNSFT_400x400.jpg',
         description: 'Independant documentary on the amazing destiny of the Cryptopunks collection and the vivid Cryptoart scene.',
         categories: ['movie'],
-        builders: []
+        builders: [
+            {
+                name: 'WTP',
+                url: 'https://twitter.com/WTP_Movie'
+            },
+            {
+                name: 'Hervé Martin-Delpierre',
+                url: 'https://twitter.com/MartinDelpierre'
+            }
+        ]
     },
     {
         name: 'Punk Secrets',
@@ -162,7 +225,12 @@ const PROJECTS: Project[] = [
         logo: 'https://pbs.twimg.com/profile_images/1661814409537224713/T1Rl7eyd_400x400.jpg',
         description: 'Find out what your punk is hiding.',
         categories: ['movie'],
-        builders: []
+        builders: [
+            {
+                name: 'Sherone.eth',
+                url: 'https://twitter.com/Sherone33'
+            }
+        ]
     },
 ];
 

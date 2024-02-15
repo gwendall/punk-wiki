@@ -41,6 +41,18 @@ const CategoryItem = styled.div`
   line-height: 16px;
 `;
 
+const StyledLink = styled.a`
+  font-weight: bold;
+  text-decoration: none;
+  transition: all 200ms ease;
+  color: rgba(0, 0, 0, 0.5);
+  @media(hover: hover) {
+    &:hover {
+      color: ${COLORS.punks};
+      text-decoration: underline;
+    }
+  }
+`;
 
 export default function Home() {
   return (
@@ -91,6 +103,27 @@ export default function Home() {
               lineHeight: 1.4,
               marginTop: 2
             }}>{p.description}</div>
+            {p.builders?.length > 0 ? (
+              <div>
+                By
+                {p.builders.map((b, j) => (
+                  <>
+                  <StyledLink
+                    key={`b-${i}-${j}`}
+                    href={b.url}
+                    target="_blank"
+                    rel="noreferrer noopener"
+                    style={{
+                      marginLeft: 5,
+                    }}
+                  >
+                    {b.name}
+                    </StyledLink>
+                  {j < p.builders.length - 1 ? ',' : ''}  
+                  </>
+                ))}
+              </div>
+            ) : null}
             {/* <div>
               {p.categories.map((c, j) => (
                 <CategoryItem key={`c-${i}-${j}`}>{c}</CategoryItem>
