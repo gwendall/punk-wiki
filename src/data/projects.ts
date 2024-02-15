@@ -152,7 +152,7 @@ const PROJECTS: Project[] = [
         name: 'What The Punk',
         url: 'https://twitter.com/WTP_Movie',
         logo: 'https://pbs.twimg.com/profile_images/1728116867191934976/OKnCNSFT_400x400.jpg',
-        description: 'Independant documentary on the amazing destiny of the Cryptopunks collection and the vivid Cryptoart scene Coproduced with ARTE & TokenAngels. Coming S1 24.',
+        description: 'Independant documentary on the amazing destiny of the Cryptopunks collection and the vivid Cryptoart scene.',
         categories: ['movie'],
         builders: []
     },
