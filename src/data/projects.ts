@@ -152,7 +152,7 @@ const PROJECTS: Project[] = [
         name: 'What The Punk',
         url: 'https://twitter.com/WTP_Movie',
         logo: 'https://pbs.twimg.com/profile_images/1728116867191934976/OKnCNSFT_400x400.jpg',
-        description: 'Indepedent documentary on the amazing destiny of the Cryptopunks collection and the vivid Cryptoart scene Coproduced with ARTE & TokenAngels. Coming S1 24.',
+        description: 'Independant documentary on the amazing destiny of the Cryptopunks collection and the vivid Cryptoart scene Coproduced with ARTE & TokenAngels. Coming S1 24.',
         categories: ['movie'],
         builders: []
     },
@@ -160,7 +160,7 @@ const PROJECTS: Project[] = [
         name: 'Punk Secrets',
         url: 'https://punksecrets.art/',
         logo: 'https://pbs.twimg.com/profile_images/1661814409537224713/T1Rl7eyd_400x400.jpg',
-        description: 'Find what your punk is hiding.',
+        description: 'Find out what your punk is hiding.',
         categories: ['movie'],
         builders: []
     },
