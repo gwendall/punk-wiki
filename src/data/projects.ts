@@ -156,6 +156,14 @@ const PROJECTS: Project[] = [
         categories: ['movie'],
         builders: []
     },
+    {
+        name: 'Punk Secrets',
+        url: 'https://punksecrets.art/',
+        logo: 'https://pbs.twimg.com/profile_images/1661814409537224713/T1Rl7eyd_400x400.jpg',
+        description: 'Find what your punk is hiding.',
+        categories: ['movie'],
+        builders: []
+    },
 ];
 
 export default PROJECTS;
