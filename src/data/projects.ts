@@ -83,7 +83,12 @@ const PROJECTS: Project[] = [
         logo: 'https://app.swap.kiwi/SwapKiwiCover.png',
         description: "A simpler interface for the WrappedPunks smart contract.",
         categories: ["Blockchain", "Cryptopunk", "Smart Contract"],
-        builders: []
+        builders: [
+            {
+                name: 'NiftyNaut',
+                url: 'https://twitter.com/niftynaut'
+            }
+        ]
     },
     {
         name: "Punks.wtf",
