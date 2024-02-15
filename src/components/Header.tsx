@@ -37,7 +37,7 @@ export default function Header() {
       <HeaderContainer>
         <Title as={Link} href="/">punk.wiki</Title>
         <FlexRow style={{ marginLeft: 'auto' }}>
-          <StyledLink href="/telegram" style={{ marginRight: 15 }}>
+          <StyledLink href="/telegram" style={{ marginRight: 15, fontWeight: 'normal', color: 'inherit' }}>
             Telegram groups
           </StyledLink>
           <PunkButton as={Link} href="/add">Add something</PunkButton>
