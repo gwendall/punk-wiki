@@ -2,6 +2,7 @@
 
 import Image from 'next/image';
 import styled from 'styled-components';
+import StyledLink from '~/components/StyledLink';
 import PROJECTS from '~/data/projects';
 import * as COLORS from '~/lib/colors';
 
@@ -39,19 +40,6 @@ const CategoryItem = styled.div`
   width: fit-content;
   font-size: 13px;
   line-height: 16px;
-`;
-
-const StyledLink = styled.a`
-  font-weight: bold;
-  text-decoration: none;
-  transition: all 200ms ease;
-  color: rgba(0, 0, 0, 0.5);
-  @media(hover: hover) {
-    &:hover {
-      color: ${COLORS.punks};
-      text-decoration: underline;
-    }
-  }
 `;
 
 export default function Home() {

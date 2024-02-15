@@ -4,6 +4,7 @@ import Link from "next/link";
 import styled from "styled-components";
 import * as COLORS from '~/lib/colors';
 import PunkButton from "./PunkButton";
+import StyledLink from "./StyledLink";
 
 const Title = styled.h1`
   color: ${COLORS.punks};
@@ -20,16 +21,27 @@ const Title = styled.h1`
 
 const HeaderContainer = styled.header`
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start;
   align-items: center;
   margin-bottom: 15px;
+`;
+
+const FlexRow = styled.div`
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 `;
 
 export default function Header() {
     return (
       <HeaderContainer>
         <Title as={Link} href="/">punk.wiki</Title>
-        <PunkButton as={Link} href="/add">Add something</PunkButton>
+        <FlexRow style={{ marginLeft: 'auto' }}>
+          <StyledLink href="/telegram" style={{ marginRight: 15 }}>
+            Telegram groups
+          </StyledLink>
+          <PunkButton as={Link} href="/add">Add something</PunkButton>
+        </FlexRow>
       </HeaderContainer>
     )
 }
