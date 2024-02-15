@@ -43,7 +43,7 @@ const PROJECTS: Project[] = [
         name: 'PunkCam',
         url: 'https://punk.cam',
         logo: 'https://punk.cam/logo.png',
-        description: 'PunkCam is a fun way to take a selfie with your favorite Cryptopunk.',
+        description: 'Take selfies with your punks.',
         categories: ['Cryptopunk', 'Selfie', 'Fun'],
         builders: [
             {
