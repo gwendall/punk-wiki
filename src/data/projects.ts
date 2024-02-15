@@ -70,6 +70,19 @@ const PROJECTS: Project[] = [
         ]
     },
     {
+        name: "(Crypto) Punk's Not Dead",
+        url: 'https://github.com/cryptopunksnotdead',
+        logo: 'https://avatars.githubusercontent.com/u/79600699?s=200&v=4',
+        description: 'Open Source Tools & Scripts and Public Domain Artwork & Datasets for Punks.',
+        categories: ['Cryptopunk', 'Community'],
+        builders: [
+            {
+                name: 'Gerald Bauer',
+                url: 'https://twitter.com/geraldbauer'
+            }
+        ]
+    },
+    {
         name: 'Wrapped Punks',
         url: 'https://www.wrappedpunks.com/',
         logo: 'https://assets.bitdegree.org/crypto-tracker/dapp-logos/ethereum/wrapped-cryptopunks-logo.png',
