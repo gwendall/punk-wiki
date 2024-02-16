@@ -117,7 +117,7 @@ const PROJECTS: Project[] = [
         ]
     },
     {
-        name: "The Punk Animator",
+        name: "The Punk Builder",
         url: "https://thepunkanimator.xyz/",
         logo: 'https://pbs.twimg.com/profile_images/1639192482960535558/gsS6wLsG_400x400.jpg',
         description: "Build a punk.",
