@@ -107,7 +107,7 @@ const PROJECTS: Project[] = [
         name: "Punks.wtf",
         url: "https://punks.wtf",
         logo: 'https://pbs.twimg.com/profile_images/1648319453627547648/aKNoQe0Q_400x400.jpg',
-        description: "Explore punks pixel data & animate your punk.",
+        description: "Explore punks colors.",
         categories: [],
         builders: [
             {
