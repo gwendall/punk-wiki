@@ -181,19 +181,19 @@ const PROJECTS: Project[] = [
             }
         ]
     },
-    {
-        name: 'CryptoPunks V1',
-        url: 'https://v1punks.io/',
-        logo: 'https://i.seadn.io/s/raw/files/1984fbf016de75b723672c077ed3276c.png?auto=format&dpr=1&w=3840',
-        description: 'The CryptoPunks from the initial buggy contract, wrapped in ERC721 tokens.',
-        categories: [],
-        builders: [
-            {
-                name: 'FrankNFT',
-                url: 'https://twitter.com/frankNFT_eth'
-            }
-        ]
-    },
+    // {
+    //     name: 'CryptoPunks V1',
+    //     url: 'https://v1punks.io/',
+    //     logo: 'https://i.seadn.io/s/raw/files/1984fbf016de75b723672c077ed3276c.png?auto=format&dpr=1&w=3840',
+    //     description: 'The CryptoPunks from the initial buggy contract, wrapped in ERC721 tokens.',
+    //     categories: [],
+    //     builders: [
+    //         {
+    //             name: 'FrankNFT',
+    //             url: 'https://twitter.com/frankNFT_eth'
+    //         }
+    //     ]
+    // },
     {
         name: "Punks As Told By CryptoPunks",
         url: "https://nftnow.com/punks-as-told-by-cryptopunks/",
