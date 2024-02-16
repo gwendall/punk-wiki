@@ -247,6 +247,32 @@ const PROJECTS: Project[] = [
         ]
     },
     {
+        name: 'Punk Provenance Explorer',
+        url: 'https://punks.junkdrawer.wtf/',
+        logo: 'https://pbs.twimg.com/profile_images/1730233044626231296/sYynZCoq_400x400.jpg',
+        description: 'Visualize the provenance of each punk as they move between wallets.',
+        categories: [],
+        builders: [
+            {
+                name: 'Pat Doyle',
+                url: 'https://twitter.com/doyle126'
+            }
+        ]
+    },
+    {
+        name: 'Punk Provenance Vizualizer',
+        url: 'https://punkverse.junkdrawer.wtf/',
+        logo: 'https://pbs.twimg.com/profile_images/1730233044626231296/sYynZCoq_400x400.jpg',
+        description: 'Visualize the universe of wallets that are buying/selling/transfering punks between each other.',
+        categories: [],
+        builders: [
+            {
+                name: 'Pat Doyle',
+                url: 'https://twitter.com/doyle126'
+            }
+        ]
+    },
+    {
         name: 'CryptoPunks Origins',
         url: 'https://cryptopunksorigins.com/',
         logo: 'https://pbs.twimg.com/profile_images/1661814409537224713/T1Rl7eyd_400x400.jpg',
