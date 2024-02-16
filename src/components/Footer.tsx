@@ -11,7 +11,25 @@ const FooterContainer = styled.footer`
 export default function Footer() { 
     return (
         <FooterContainer>
-            <StyledLink href="https://github.com/gwendall/punk-wiki" target="_blank" style={{ fontWeight: 'normal', color: 'inherit' }}>
+            <StyledLink
+                href="https://github.com/gwendall/punk-wiki/blob/main/src/data/projects.ts"
+                target="_blank"
+                style={{
+                    fontWeight: 'normal',
+                    color: 'inherit'
+                }}
+            >
+                Data
+            </StyledLink>
+            {' - '}
+            <StyledLink
+                href="https://github.com/gwendall/punk-wiki"
+                target="_blank"
+                style={{
+                    fontWeight: 'normal',
+                    color: 'inherit'
+                }}
+            >
                 Open Source Code
             </StyledLink>
             {' - For Punks, by Punks.'}
