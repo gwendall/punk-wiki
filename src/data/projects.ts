@@ -260,7 +260,7 @@ const PROJECTS: Project[] = [
         ]
     },
     {
-        name: 'Punk Provenance Vizualizer',
+        name: 'PunkVerse',
         url: 'https://punkverse.junkdrawer.wtf/',
         logo: 'https://pbs.twimg.com/profile_images/1730233044626231296/sYynZCoq_400x400.jpg',
         description: 'Visualize the universe of wallets that are buying/selling/transfering punks between each other.',
