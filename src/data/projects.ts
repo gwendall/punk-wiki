@@ -156,6 +156,19 @@ const PROJECTS: Project[] = [
         ]
     },
     {
+        name: 'Are Punks Ded?',
+        url: 'https://arepunksded.com',
+        logo: 'https://pbs.twimg.com/profile_images/1712093315795972097/ebLlmr2M_400x400.jpg',
+        description: 'Are punks ded?',
+        categories: [],
+        builders: [
+            {
+                name: 'Gwendall',
+                url: 'https://twitter.com/gwendall'
+            }
+        ]
+    },
+    {
         name: 'IttyBits',
         url: 'https://ittybits.xyz/',
         logo: 'https://ittybits.xyz/ittybits.png',
