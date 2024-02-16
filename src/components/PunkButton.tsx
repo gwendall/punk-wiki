@@ -13,6 +13,7 @@ const PunkButton = styled.button`
   font-weight: 700;
   letter-spacing: 1px;
   cursor: pointer;
+  white-space: nowrap;
   transition: background-color 200ms ease;
   @media(hover: hover) {
     &:hover {
