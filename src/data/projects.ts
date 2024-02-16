@@ -98,7 +98,7 @@ const PROJECTS: Project[] = [
         categories: ["Blockchain", "Cryptopunk", "Smart Contract"],
         builders: [
             {
-                name: 'NiftyNaut',
+                name: 'Niftynaut',
                 url: 'https://twitter.com/niftynaut'
             }
         ]
@@ -111,7 +111,7 @@ const PROJECTS: Project[] = [
         categories: [],
         builders: [
             {
-                name: 'NiftyNaut',
+                name: 'Niftynaut',
                 url: 'https://twitter.com/niftynaut'
             }
         ]
