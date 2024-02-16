@@ -40,7 +40,7 @@ export default function Header() {
           <StyledLink href="/telegram" style={{ marginRight: 15, fontWeight: 'normal', color: 'inherit' }}>
             Telegram
           </StyledLink>
-          <PunkButton as={Link} href="/add">Add something</PunkButton>
+          <PunkButton as={Link} href="/add">Add one</PunkButton>
         </FlexRow>
       </HeaderContainer>
     )
