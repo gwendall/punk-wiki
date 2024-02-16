@@ -30,7 +30,7 @@ export default function Footer() {
                     color: 'inherit'
                 }}
             >
-                Open Source Code
+                Codebase
             </StyledLink>
             {' - For Punks, by Punks.'}
         </FooterContainer>
