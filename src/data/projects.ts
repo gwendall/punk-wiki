@@ -223,7 +223,7 @@ const PROJECTS: Project[] = [
         name: "Understanding CryptoPunks",
         url: "https://understanding-cryptopunks.vv.xyz/",
         logo: 'https://pbs.twimg.com/profile_images/1755582763745292288/APKWetyO_400x400.jpg',
-        description: "A little guide than explore the wild phenomenon of CryptoPunks.",
+        description: "A little guide that explores the wild phenomenon of CryptoPunks.",
         categories: ["Guide", "Education", "Cryptopunk"],
         builders: [
             {
