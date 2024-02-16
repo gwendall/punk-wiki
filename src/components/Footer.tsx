@@ -5,7 +5,7 @@ import StyledLink from "./StyledLink";
 
 const FooterContainer = styled.footer`
     text-align: right;
-    margin-top: 15px;
+    padding: 15px 0;
 `;
 
 export default function Footer() { 
