@@ -217,7 +217,25 @@ const PROJECTS: Project[] = [
         logo: 'https://cryptopunks.eth.limo/favicon.ico',
         description: 'A new and innovative NFT marketplace dedicated exclusively to the iconic 10,000 CryptoPunks collection.',
         categories: [],
-        builders: []
+        builders: [
+            {
+                name: 'Beautifulnfts.eth',
+                url: 'https://twitter.com/beautiful_nfts_'
+            }
+        ]
+    },
+    {
+        name: 'ForeverPunks',
+        url: 'https://foreverpunks.com/',
+        logo: 'https://cdn.punksclub.io/media/avatars/-pbFDj9HdjLw4KmXYQcAdw.png.500x500_q99_crop-smart.jpg',
+        description: 'Find your Forever Punk.',
+        categories: [],
+        builders: [
+            {
+                name: 'Mr Forever',
+                url: 'https://twitter.com/mrforevernft'
+            }
+        ]
     },
     {
         name: "Understanding CryptoPunks",
